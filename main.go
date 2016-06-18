@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
-	"strings"
 	"os/exec"
+	"strings"
 
 	"github.com/fatih/color"
 )
@@ -23,22 +23,22 @@ func main() {
 		cmdArgs = args[2:]
 	}
 
-  fmt.Printf("%s %s\n", bin, strings.Join(cmdArgs, " "))
+	fmt.Printf("%s %s\n", bin, strings.Join(cmdArgs, " "))
 
 	oCmd := exec.Command(bin, cmdArgs...)
 	oCmd.Stdout = os.Stdout
 	oCmd.Stderr = os.Stderr
-  
+
 	err := oCmd.Run()
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		fmt.Fprintln(os.Stderr, color.RedString(" ✘ Failed"))
 		os.Exit(1)
 	}
-  if oCmd.ProcessState.Success() == false {
-    fmt.Fprintln(os.Stderr, color.RedString(" ✘ Failed"))
-    os.Exit(1)
-  }
+	if oCmd.ProcessState.Success() == false {
+		fmt.Fprintln(os.Stderr, color.RedString(" ✘ Failed"))
+		os.Exit(1)
+	}
 	fmt.Println(color.GreenString(" ✔ Success"))
 
 }
