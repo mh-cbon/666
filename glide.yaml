@@ -10,8 +10,8 @@ scripts:
     git push && git push --tags \
     && philea -S -p "build/windows*/*" "archive create -f -o=assets/%dname.zip -C=build/%dname/ ." \
     && philea -S -e windows*/** -p "build/*/**" "archive create -f -o=assets/%dname.tar.gz -C=build/%dname/ ." \
-    && gh-api-cli create-release -n release -o mh-cbon -r gump --ver !newversion! \
-    && gh-api-cli upload-release-asset -n release --glob "assets/*" -o mh-cbon -r gump --ver !newversion! \
+    && gh-api-cli create-release -n release -o mh-cbon -r 666 --ver !newversion! \
+    && gh-api-cli upload-release-asset -n release --glob "assets/*" -o mh-cbon -r 666 --ver !newversion! \
     && rm-glob -r build/ \
     && rm-glob -r assets/ \
     && go install --ldflags "-X main.VERSION=!newversion!"
