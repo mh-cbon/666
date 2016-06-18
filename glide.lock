@@ -1,0 +1,8 @@
+hash: 450d77983e780e5fc0ec8f7b1b1849e36fb81f850929ff741fe6975e16d47e96
+updated: 2016-06-18T18:28:54.567630123+02:00
+imports:
+- name: github.com/fatih/color
+  version: 1b35f289c47d5c73c398cea8e006b7bcb6234a96
+- name: github.com/shiena/ansicolor
+  version: a422bbe96644373c5753384a59d678f7d261ff10
+devImports: []
