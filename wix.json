@@ -1,0 +1,26 @@
+{
+  "product": "666",
+  "company": "mh-cbon",
+  "license": "LICENSE",
+  "upgrade-code": "6F59DCB2-62F4-4EFD-9A14-83F37B2DBFA4",
+  "files": {
+    "guid": "A0D0E945-FF8C-4B82-95EA-E3F2EA743B2B",
+    "items": [
+      "666.exe"
+    ]
+  },
+  "env": {
+    "guid": "D273DDCD-2810-4CD5-8D78-87CA52877E17",
+    "vars": [
+      {
+        "name": "PATH",
+        "value": "[INSTALLDIR]",
+        "permanent": "no",
+        "system": "no",
+        "action": "set",
+        "part": "last"
+      }
+    ]
+  },
+  "shortcuts": {}
+}
