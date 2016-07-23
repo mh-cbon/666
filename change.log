@@ -1,0 +1,37 @@
+
+UNRELEASED
+
+  * packaging: add rpm/deb/msi support
+  * README: update install section
+  * release: update release script
+
+  - mh-cbon <mh-cbon@users.noreply.github.com>
+
+-- mh-cbon <mh-cbon@users.noreply.github.com>; Sat, 23 Jul 2016 19:53:58 +0200
+
+
+
+0.0.2
+
+  * go fmt
+  * improve release scripts
+  * improve output, catch error codes
+
+  - mh-cbon <mh-cbon@users.noreply.github.com>
+
+-- mh-cbon <mh-cbon@users.noreply.github.com>; Sat, 18 Jun 2016 23:29:15 +0200
+
+
+
+0.0.1
+
+  * release scripts
+  * release scripts
+  * init
+  * Initial commit
+
+  - mh-cbon <mh-cbon@users.noreply.github.com>
+
+-- mh-cbon <mh-cbon@users.noreply.github.com>; Sat, 18 Jun 2016 18:40:42 +0200
+
+
