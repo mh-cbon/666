@@ -1,4 +1,14 @@
 
+0.0.4
+
+  * msi: fix msi build, got error=error LGHT0204 : ICE39: Bad Type in Summary Information Stream for PID_SUBJECT
+
+  - mh-cbon <mh-cbon@users.noreply.github.com>
+
+-- mh-cbon <mh-cbon@users.noreply.github.com>; Sat, 23 Jul 2016 20:01:35 +0200
+
+
+
 0.0.3
 
   * changelog: init
