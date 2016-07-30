@@ -1,0 +1,6 @@
+[666]
+name=Visually display success or failure of a command
+baseurl=https://mh-cbon.github.io/666/rpm/$basearch/
+enabled=1
+skip_if_unavailable=1
+gpgcheck=0
