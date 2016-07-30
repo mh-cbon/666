@@ -1,0 +1,54 @@
+Package: 666
+Priority: extra
+Section: unknown
+Installed-Size: 2.1 kB
+Maintainer: mh-cbon <mh-cbon@users.noreply.github.com>
+Architecture: amd64
+Source: 666
+Version: 0.0.5
+Filename: pool/contrib/6/666/666-0.0.5_amd64.deb
+Size: 561700
+MD5sum: 54f6f47cf960998953ff42201eb71075
+SHA1: 3210a55ecab348e08d118d49cfcab929e40ffb6d
+SHA256: 4d8779fe17ce92308d3bb102c72f7cc96e9d1167205312fb5bb81f9aa24491e4
+SHA512: 9c26069d5d059e3710017dbc7dbffccf6ae8eaaafabd8e699c2e27d14a3601d2ebeff065988265fc1a98bc17c761e88e6a79a7ad122e66bcbe033e32e46f9fe6
+Description: Visually display success or failure of a command
+Homepage: http://github.com/mh-cbon/666
+Package-Type: deb
+
+Package: 666
+Priority: extra
+Section: unknown
+Installed-Size: 2.1 kB
+Maintainer: mh-cbon <mh-cbon@users.noreply.github.com>
+Architecture: amd64
+Source: 666
+Version: 0.0.4
+Filename: pool/contrib/6/666/666-0.0.4_amd64.deb
+Size: 561380
+MD5sum: 7c64800893edcbca054bc65a5ad97745
+SHA1: 60b872898756368c823eda2ae916d0b5eb636011
+SHA256: e3407264278fc5447d09f879e78d69503cf0f349e8dd43bd53c16233feda646d
+SHA512: ea2e3c45979485a9cc48aaaf823e9f500a3452b91906376ff9221d9c4bbf1bd0cd591f7d02fb524d5401491f297b9fa1425129f054f64ed484fd47525abb3c58
+Description: Visually display success or failure of a command
+Package-Type: deb
+Homepage: http://github.com/mh-cbon/666
+
+Package: 666
+Priority: extra
+Section: unknown
+Installed-Size: 2.1 kB
+Maintainer: mh-cbon <mh-cbon@users.noreply.github.com>
+Architecture: amd64
+Source: 666
+Version: 0.0.3
+Filename: pool/contrib/6/666/666-0.0.3_amd64.deb
+Size: 560272
+MD5sum: 3d6fb6719f1cdd4c3cbfac9e83b85778
+SHA1: 66f069f0e9f0ec45c5902e77e84590e289fa3b3a
+SHA256: f5b7744225d4bc8b230200f73321a1771861e98582307753e12c7120f0e00d03
+SHA512: b1ce4c0a9de8ef7cd54369e900dd7e8ae608f9fb13cbda262644587593437b222ca1f02e43750d0dd71c8472903f4e25b59c2a9011db02a843e43b85e113b3d1
+Description: Visually display success or failure of a command
+Homepage: http://github.com/mh-cbon/666
+Package-Type: deb
+
