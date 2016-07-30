@@ -2,6 +2,8 @@
 
 Visually display success or failure of a command
 
+This tool is part of the [go-github-release workflow](https://github.com/mh-cbon/go-github-release)
+
 ## Install
 
 Pick an msi package [here](https://github.com/mh-cbon/666/releases)!
@@ -47,11 +49,11 @@ go install
 # Usage
 
 ```sh
-$ t6 echo "ok"
+$ 666 echo "ok"
 ok
  ✔ Success
 
-$ t6 nopnop "ok"
+$ 666 nopnop "ok"
 exec: "nopnop": executable file not found in $PATH
  ✘ Failed
 ```
